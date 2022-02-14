@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+.body {
+  display: flex;
+}
+.left {
+  min-height: 100vh;
+  width: 15%;
+}
+.slider {
+  height: 100vh;
+  background-color: #181c3a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  /* text-align: left; */
+}
+.slider-title{
+  width: 60%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.slider-title h3 {
+  width: 100%;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: all .1s ease ;
+}
+.slider-title h3:hover {
+  color: #f2c265;
+}
+.slider-content {
+  width: 60%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slider-content ul li {
+  margin: 18px 0;
+  padding: 10px 0;
+  font-size: 18px;
+  transition: all .1s ease;
+  cursor: pointer;
+}
+.slider-content ul li:hover {
+  color: #f2c265;
+}
+.slider-content ul {
+  width: 100%;
+}
+.slider-btn {
+  width: 60%;
+  /* height: 30%; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.slider-btn button {
+  /* width: 100%; */
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #fff;
+  /* background-color: linear-gradient(to right, #f2c265, rgb(247, 180, 79)); */
+  background-color: #f1b02c;
+  border: none;
+  border-radius: 5px;
+}
+
+.slider-btn button:hover {
+  
+}
+
+/* right */
+.right {
+  width: 85%;
+  height: 100vh;
+  background-color: #090d27;
+}
+
+.box1 {
+  width: 65%;
+  color: #fff;
+  background-color: #181c3a;
+  border-radius: 20px;
+  justify-content: space-around;
+}
+.box2 {
+  width: 30%;
+  color: #fff;
+  /* background-color: yellow; */
+}
+.left-content1 {
+  background-color: #181c3a;
+  height: 100px;
+  border-radius: 20px;
+  align-items: center;
+}
+.left-content2 {
+}
+.xvs {
+  height: 100%;
+}
+.xvs img{
+  width: 30px;
+  margin-right: 15px;
+}
+.s-balance, .b-balance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-title h3 {
+  cursor: pointer;
+}
